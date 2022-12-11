@@ -1,0 +1,12 @@
+.title {
+  position: relative;
+  left: 2.5%;
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  background: #212121;
+  border-left: 3px solid red;
+  border-top: 0.1px solid #a6a6a6;
+  border-bottom: 0.1px solid #a6a6a6;
+  border-right: 0.1px solid #a6a6a6;
+}
