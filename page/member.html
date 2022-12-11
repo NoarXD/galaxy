@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>member</title>
+  <link rel="stylesheet" href="../css/background.css">
+  <link rel="stylesheet" href="../css/menubar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <style>
+    .content {
+      position: absolute;
+      left: 2.5%;
+      width: 95%;
+      border-radius: 5px;
+      background: #212121;
+      border-left: 3px solid red;
+      border-top: 0.1px solid #a6a6a6;
+      border-bottom: 0.1px solid #a6a6a6;
+      border-right: 0.1px solid #a6a6a6;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 50px 200px auto;
+      grid-template-areas:
+        'id name type';
+      text-align: center;
+    }
+    .grid p:nth-child(even) {
+      background: #292929;
+    }
+    .id {
+      grid-area: id;
+    }
+
+    .name {
+      grid-area: name;
+    }
+
+    .type {
+      grid-area: type;
+    }
+    .content .grid p {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- menubar -->
+    <div class="scrollmenu">
+      <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+      <a href=""><i class="fa-solid fa-user"></i></a>
+      <a href="#contact"><i class="fa-solid fa-envelope"></i></a>
+      <a href="#about"><i class="fa-solid fa-address-card"></i></a>
+    </div>
+    <!--background-->
+    <div class="bubbles">
+      <span style="--i:26"></span>
+      <span style="--i:19"></span>
+      <span style="--i:20"></span>
+      <span style="--i:22"></span>
+      <span style="--i:23"></span>
+      <span style="--i:18"></span>
+      <span style="--i:14"></span>
+      <span style="--i:27"></span>
+      <span style="--i:17"></span>
+      <span style="--i:25"></span>
+      <span style="--i:25"></span>
+      <span style="--i:26"></span>
+      <span style="--i:19"></span>
+      <span style="--i:16"></span>
+      <span style="--i:22"></span>
+      <span style="--i:23"></span>
+      <span style="--i:18"></span>
+      <span style="--i:14"></span>
+      <span style="--i:27"></span>
+      <span style="--i:17"></span>
+      <span style="--i:25"></span>
+      <span style="--i:28"></span>
+      <span style="--i:13"></span>
+      <span style="--i:25"></span>
+      <span style="--i:17"></span>
+      <span style="--i:29"></span>
+    </div>
+    <!--member
+<i class="fa-solid fa-venus"></i>
+<i class="fa-solid fa-mars"></i>
+    -->
+    <div class="content">
+      <div class="grid">
+        <div class="id">
+          <p>ID</p>
+          <p>1</p>
+          <p>2</p>
+          <p>3</p>
+          <p>4</p>
+          <p>5</p>
+          <p>6</p>
+          <p>7</p>
+          <p>8</p>
+          <p>9</p>
+          <p>10</p>
+        </div>
+        <div class="name">
+          <p>ชื่อ</p>
+          <p>Aom <i class="fa-solid fa-mars"></i></p>
+          <p>Noar <i class="fa-solid fa-mars"></i></p>
+          <p>Macho <i class="fa-solid fa-mars"></i></p>
+          <p>.</p>
+          <p>.</p>
+          <p>.</p>
+          <p>.</p>
+          <p>.</p>
+          <p>.</p>
+          <p>.</p>
+        </div>
+        <div class="type">
+          <p>ระดับ</p>
+          <p>ลีดเดอร์ด</p>
+          <p>รองลีด</p>
+          <p>สมาชิก</p>
+          <p>สมาชิก</p>
+          <p>สมาชิก</p>
+          <p>สมาชิก</p>
+          <p>สมาชิก</p>
+          <p>สมาชิก</p>
+          <p>สมาชิก</p>
+          <p>สมาชิก</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
